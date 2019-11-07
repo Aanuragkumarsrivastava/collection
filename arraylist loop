@@ -1,0 +1,32 @@
+package pack1;
+
+import java.util.ArrayList;
+
+public class Arraylistloop {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> a = new ArrayList<String>();
+		a.add("ram");
+		a.add("shyam");
+
+		a.add("mohan");
+
+		a.add("giriraj");
+
+		a.add("sohan");
+		
+		System.out.println(a);
+		
+		a.remove("sohan");
+		
+		System.out.println(a);
+		
+		for(int i=0;i<a.size();i++)//using loop we are printing the values
+			
+			System.out.println(a.get(i));
+
+
+	}
+
+}
